@@ -1,0 +1,16 @@
+.navbar {
+	border-bottom: 1px solid var(--bs-gray-500);
+	.navbar-brand {
+		color: var(--bs-primary);
+		&:active,
+		&:focus,
+		&:hover {
+			color: var(--bs-white);
+		}
+		svg {
+			width: 1.25rem;
+			height: auto;
+			margin-right: .5rem;
+		}
+	}
+}
